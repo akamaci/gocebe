@@ -1,0 +1,16 @@
+# Cikti
+gocebe-cikti/
+*.cikti/
+
+# Gecici
+_kontrol.ps1
+*.tmp
+*.log
+
+# PowerShell
+*.bak
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
