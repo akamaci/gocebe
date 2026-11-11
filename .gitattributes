@@ -1,0 +1,16 @@
+# Satır sonlarını sabitle — her makinede aynı dosya çıksın
+* text=auto
+
+# Windows betikleri CRLF olmalı (cmd.exe .bat ayrıştırması)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Belgeler
+*.md text eol=lf
+
+# İkili dosya sayılacaklar
+*.png binary
+*.jpg binary
+*.webp binary
+*.zip binary
